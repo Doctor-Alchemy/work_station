@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.zjrcu.first_springboot.Enable_Test.PersonProper",
+      "sourceType": "com.zjrcu.first_springboot.Enable_Test.PersonProper"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zjrcu.first_springboot.Enable_Test.PersonProper"
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zjrcu.first_springboot.Enable_Test.PersonProper"
+    },
+    {
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.zjrcu.first_springboot.Enable_Test.PersonProper"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.zjrcu.first_springboot.Enable_Test.PersonProper"
+    },
+    {
+      "name": "person.power",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zjrcu.first_springboot.Enable_Test.PersonProper"
+    }
+  ],
+  "hints": []
+}

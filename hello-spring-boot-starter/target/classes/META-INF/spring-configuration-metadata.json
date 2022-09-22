@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "hello.chinese",
+      "type": "com.example.hellospringbootstarter.pojo.Chinese",
+      "sourceType": "com.example.hellospringbootstarter.pojo.Chinese"
+    },
+    {
+      "name": "hello.english",
+      "type": "com.example.hellospringbootstarter.pojo.English",
+      "sourceType": "com.example.hellospringbootstarter.pojo.English"
+    }
+  ],
+  "properties": [
+    {
+      "name": "hello.chinese.city",
+      "type": "java.lang.String",
+      "sourceType": "com.example.hellospringbootstarter.pojo.Chinese"
+    },
+    {
+      "name": "hello.chinese.say",
+      "type": "java.lang.String",
+      "sourceType": "com.example.hellospringbootstarter.pojo.Chinese"
+    },
+    {
+      "name": "hello.english.eat",
+      "type": "java.lang.String",
+      "sourceType": "com.example.hellospringbootstarter.pojo.English"
+    },
+    {
+      "name": "hello.english.speak",
+      "type": "java.lang.String",
+      "sourceType": "com.example.hellospringbootstarter.pojo.English"
+    }
+  ],
+  "hints": []
+}

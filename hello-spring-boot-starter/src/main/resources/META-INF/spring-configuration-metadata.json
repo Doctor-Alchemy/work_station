@@ -1,0 +1,41 @@
+{
+
+  "properties":[
+    {
+      "name": "hello.chinese.chineseService",
+      "type": "java.lang.String",
+      "discription": "desc",
+      "defaultValue": "true"
+    },
+    {
+    "name": "hello.chinese.say",
+    "type": "java.lang.String",
+    "discription": "desc",
+    "defaultValue": "hanyu"
+    },
+    {
+    "name": "hello.chinese.city",
+    "type": "java.lang.String",
+    "discription": "desc",
+    "defaultValue": "china"
+    },
+    {
+    "name": "hello.english.englishService",
+    "type": "java.lang.String",
+    "discription": "desc",
+    "defaultValue": "true"
+    },
+    {
+    "name": "hello.english.speak",
+    "type": "java.lang.String",
+    "discription": "desc",
+    "defaultValue": "english"
+    },
+    {
+    "name": "hello.english.eat",
+    "type": "java.lang.String",
+    "discription": "desc",
+    "defaultValue": "eat"
+    }
+  ]
+}

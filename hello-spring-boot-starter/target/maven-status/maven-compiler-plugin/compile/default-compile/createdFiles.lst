@@ -1,0 +1,6 @@
+com\example\hellospringbootstarter\pojo\Chinese.class
+com\example\hellospringbootstarter\HelloServiceAutoConfiguration.class
+com\example\hellospringbootstarter\Service\EnglishService.class
+com\example\hellospringbootstarter\HelloSpringBootStarterApplication.class
+com\example\hellospringbootstarter\pojo\English.class
+com\example\hellospringbootstarter\Service\ChineseService.class

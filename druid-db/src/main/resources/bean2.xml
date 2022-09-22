@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="application.properties"/>
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">
+        <property name="driverClassName" value="${spring.datasource.driver-class-name}"></property>
+        <property name="url" value="${spring.datasource.url}" ></property>
+        <property name="username" value="${spring.datasource.username}" ></property>
+        <property name ="password" value="${spring.datasource.password}" ></property>
+    </bean>
+
+    <bean id="namedParameterJdbcTemplate" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate">
+        <constructor-arg ref="dataSource"></constructor-arg>
+    </bean>
+
+    <bean id="userDao" class="com.zjrcu.druiddb.NamedJdbcTemp.UserDaoImp">
+        <property name="namedParameterJdbcTemplate" ref="namedParameterJdbcTemplate"></property>
+    </bean>
+
+    <bean id="userService" class="com.zjrcu.druiddb.NamedJdbcTemp.UserServiceImp">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+
+
+</beans>

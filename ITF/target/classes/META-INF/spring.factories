@@ -1,0 +1,5 @@
+#
+# org.springframework.boot.env.EnvironmentPostProcessor=com.zjrcu.itf.EnvironmentPostProcessor.MyEnvironmentPostProcessor
+#
+
+org.springframework.context.ApplicationContextInitializer=com.zjrcu.itf.ApplicationContextInitializer.FirstInitializer
